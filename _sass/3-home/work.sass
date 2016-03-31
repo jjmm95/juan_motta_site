@@ -4,6 +4,18 @@
   text-align: center
   background: rgba(245,245,245,1)
 
+  h2
+    text-transform: uppercase
+
+  hr
+    width: 10%
+    height: 3px
+    background: $copper
+    border: none
+    border-radius: 3px
+    margin: 10px auto
+    margin-bottom: 15px
+
   .wrapper
     display: inline-block
     max-width: 780px
@@ -51,3 +63,37 @@
 
     @media screen and (max-width: 410px)
       max-width: 195px
+
+  .three-posts,
+  .four-posts,
+  .six-posts,
+    display: none
+  .eight-posts
+    display: inline-block
+
+  @media screen and (max-width: 800px)
+    .three-posts,
+    .four-posts,
+    .eight-posts,
+      display: none
+    .six-posts
+      display: inline-block
+  @media screen and (max-width: 605px)
+    .three-posts,
+    .six-posts,
+    .eight-posts
+      display: none
+    .four-posts
+      display: inline-block
+  @media screen and (max-width: 410px)
+    .four-posts,
+    .six-posts,
+    .eight-posts
+      display: none
+    .three-posts
+      display: inline-block
+
+  .view-all
+    margin: 35px auto 25px auto
+    .button
+      font-size: 2rem
