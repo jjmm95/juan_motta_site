@@ -1,13 +1,15 @@
 <section class="work">
   <div class="wrapper cf">
   {% for post in site.posts %}
-    <div class="project">
-      <img class="thumbnail" src="{{ post.thumbnail }}"/>
-      <div class="info">
-        <a href="{{ post.url }}" class = "title">{{ post.title }}</a>
-        <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+    <a href="{{ post.url }}">
+      <div class="project">
+        <img class="thumbnail" src="{{ post.thumbnail }}"/>
+        <div class="info">
+          <a href="{{ post.url }}" class = "title">{{ post.title }}</a>
+          <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+        </div>
       </div>
-    </div>
+    </a>
   {% endfor %}
   </div>
 </section>
