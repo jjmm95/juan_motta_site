@@ -15,6 +15,7 @@ url: "http://juanmotta.me" # the base hostname & protocol for your site
 twitter_username: xjuantonx
 github_username:  jjmm95
 exclude: ['gems', ]
-
+gems:
+  - octopress-autoprefixer
 # Build settings
 markdown: kramdown

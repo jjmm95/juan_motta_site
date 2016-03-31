@@ -1,8 +1,10 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+/* 0-tools */
 @import "0-tools/normalize";
-
-body {
-  background: blue;
-}
+/* 1-BASE */
+@import "1-base/variables";
+@import "1-base/type";
+/* INCLUDES */
+@import "nav";
