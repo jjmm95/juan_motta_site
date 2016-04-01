@@ -66,13 +66,13 @@
           .date
             color: white
 
-    @media screen and (max-width: 800px)
+    @media screen and (max-width: $m)
       max-width: 585px
 
-    @media screen and (max-width: 605px)
+    @media screen and (max-width: $s)
       max-width: 390px
 
-    @media screen and (max-width: 410px)
+    @media screen and (max-width: $xs)
       max-width: 195px
 
   .three-posts,
@@ -82,21 +82,21 @@
   .eight-posts
     display: inline-block
 
-  @media screen and (max-width: 800px)
+  @media screen and (max-width: $m)
     .three-posts,
     .four-posts,
     .eight-posts,
       display: none
     .six-posts
       display: inline-block
-  @media screen and (max-width: 605px)
+  @media screen and (max-width: $s)
     .three-posts,
     .six-posts,
     .eight-posts
       display: none
     .four-posts
       display: inline-block
-  @media screen and (max-width: 410px)
+  @media screen and (max-width: $xs)
     .four-posts,
     .six-posts,
     .eight-posts

@@ -1,6 +1,12 @@
 /*--- TYPOGRAPHY ---*/
+*
+  transition: all .3s ease-in-out
+
 \:root
   font-size: 10px
+
+  @media screen and (max-width: 410px)
+    font-size: 8px
 
 h1, h2, h3, h4, h5, h6, p, a
   font-family: "brandon-grotesque", sans-serif
@@ -35,7 +41,7 @@ a
 /*--- ELEMENTS ---*/
 .button
   text-transform: uppercase
-  font-size: 1rem
+  font-size: 1.35rem
   color: $copper
   padding: .1em 1em
   border: .15em solid $copper
