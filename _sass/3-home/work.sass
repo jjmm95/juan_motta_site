@@ -4,6 +4,7 @@
   text-align: center
   background: rgba(245,245,245,1)
 
+
   h2
     text-transform: uppercase
 
@@ -21,21 +22,30 @@
     max-width: 780px
 
     .project
+      display: inline-block
       text-align: left
       float: left
-      height: 235px
       margin: 10px
       width: 175px
       border-radius: 3px
-      background: white
 
-      .thumbnail
+
+      .thumb
         width: 100%
+        height: 175px
         border-top-left-radius: 3px
         border-top-right-radius: 3px
+        background:
+          position: center center
+          repeat: no-repeat
+          size: cover
 
       .info
         padding: 10px
+        background: white
+        border-bottom-left-radius: 3px
+        border-bottom-right-radius: 3px
+        transition: all .1s ease-in-out
 
         .title
           font-size: 2rem
@@ -47,13 +57,14 @@
           color: $copper
 
       &:hover
-        background: $copper
+        .info
+          background: $copper
 
-        .title
-          color: white
+          .title
+            color: white
 
-        .date
-          color: white
+          .date
+            color: white
 
     @media screen and (max-width: 800px)
       max-width: 585px
