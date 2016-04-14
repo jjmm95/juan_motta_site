@@ -10,7 +10,7 @@ title: Juan Motta
 email: info@juanmotta.me
 description: > # this means to ignore newlines until "baseurl:"
   Online portfolio and information about deesigner/developer Juan Motta
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "http://juanmotta.me" # the base hostname & protocol for your site
 twitter_username: xjuantonx
 github_username:  jjmm95
