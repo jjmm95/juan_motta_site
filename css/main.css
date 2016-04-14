@@ -363,10 +363,6 @@ textarea {
 /* COLORS */
 /* SCREEN SIZES */
 /*--- TYPOGRAPHY --- */
-* {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-
 :root {
   font-size: 10px; }
   @media screen and (max-width: 410px) {
@@ -412,8 +408,8 @@ a {
   padding: 0.1em 1em;
   border: 0.15em solid #99694C;
   border-radius: 0.25em;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.105s ease-in-out;
+  transition: all 0.105s ease-in-out; }
   .button:hover {
     background: #99694C;
     color: white; }
