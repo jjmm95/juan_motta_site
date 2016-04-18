@@ -491,7 +491,7 @@ nav {
         margin: 0 auto;
         width: 80px;
         position: relative;
-        top: -25px; } }
+        top: 3px; } }
 
 .hero {
   background: white;
@@ -602,3 +602,123 @@ nav {
     margin: 35px auto 25px auto; }
     .work .view-all .button {
       font-size: 2rem; }
+
+body {
+  background: #f0f0f0; }
+
+#p-hero {
+  height: auto; }
+  #p-hero h1 {
+    margin: 0 auto;
+    line-height: 5em; }
+
+.posts-work {
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #f0f0f0; }
+  .posts-work h2 {
+    text-transform: uppercase; }
+  .posts-work hr {
+    width: 10%;
+    height: 3px;
+    background: #99694C;
+    border: none;
+    border-radius: 3px;
+    margin: 10px auto;
+    margin-bottom: 15px; }
+  .posts-work .wrapper {
+    display: inline-block;
+    max-width: 780px; }
+    .posts-work .wrapper .project {
+      display: inline-block;
+      text-align: left;
+      float: left;
+      margin: 10px;
+      width: 175px;
+      border-radius: 3px; }
+      .posts-work .wrapper .project .thumb {
+        width: 100%;
+        height: 175px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .posts-work .wrapper .project .info {
+        padding: 10px;
+        background: white;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        -webkit-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out; }
+        .posts-work .wrapper .project .info .title {
+          font-size: 2rem;
+          margin: 0 0 0 0;
+          line-height: 1em; }
+        .posts-work .wrapper .project .info .date {
+          margin: 0;
+          color: #99694C; }
+      .posts-work .wrapper .project:hover .info {
+        background: #99694C; }
+        .posts-work .wrapper .project:hover .info .title {
+          color: white; }
+        .posts-work .wrapper .project:hover .info .date {
+          color: white; }
+    @media screen and (max-width: 800px) {
+      .posts-work .wrapper {
+        max-width: 585px; } }
+    @media screen and (max-width: 605px) {
+      .posts-work .wrapper {
+        max-width: 390px; } }
+    @media screen and (max-width: 410px) {
+      .posts-work .wrapper {
+        max-width: 195px; } }
+  .posts-work .three-posts,
+  .posts-work .four-posts,
+  .posts-work .six-posts {
+    display: none; }
+  .posts-work .eight-posts {
+    display: inline-block; }
+  @media screen and (max-width: 800px) {
+    .posts-work .three-posts,
+    .posts-work .four-posts,
+    .posts-work .eight-posts {
+      display: none; }
+    .posts-work .six-posts {
+      display: inline-block; } }
+  @media screen and (max-width: 605px) {
+    .posts-work .three-posts,
+    .posts-work .six-posts,
+    .posts-work .eight-posts {
+      display: none; }
+    .posts-work .four-posts {
+      display: inline-block; } }
+  @media screen and (max-width: 410px) {
+    .posts-work .four-posts,
+    .posts-work .six-posts,
+    .posts-work .eight-posts {
+      display: none; }
+    .posts-work .three-posts {
+      display: inline-block; } }
+  .posts-work .view-all {
+    margin: 35px auto 25px auto; }
+    .posts-work .view-all .button {
+      font-size: 2rem; }
+
+body {
+  background: white; }
+
+article {
+  margin: 50px auto; }
+  article h1,
+  article p {
+    margin: 0 50px;
+    margin-bottom: 20px; }
+  article p {
+    font-size: 2em; }
+  article figure {
+    margin: 0; }
+    article figure img {
+      width: 100%;
+      margin: 0; }
