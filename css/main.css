@@ -398,7 +398,7 @@ p {
   line-height: 1.8em; }
 
 a {
-  font-size: 1rem; }
+  color: #99694C; }
 
 /*--- ELEMENTS --- */
 .button {
@@ -427,7 +427,8 @@ nav {
   width: 100%;
   background: #f0f0f0;
   padding: 10px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-bottom: 2px solid #99694C; }
   nav .mobile-nav-toggle {
     margin: 5px 0 0 10px;
     width: 50px;
@@ -707,18 +708,35 @@ body {
       font-size: 2rem; }
 
 body {
-  background: white; }
+  background: #f0f0f0; }
+
+.back {
+  margin: 0 auto;
+  padding-left: 25px; }
+  .back a {
+    font-size: 1.35rem;
+    line-height: 10rem;
+    text-transform: uppercase; }
+  @media screen and (min-width: 800px) {
+    .back {
+      width: 800px;
+      padding-left: 0px; } }
 
 article {
-  margin: 50px auto; }
+  margin: 0 auto;
+  background: white;
+  padding: 20px 0 20px 0; }
+  @media screen and (min-width: 800px) {
+    article {
+      width: 800px;
+      border-radius: 10px; } }
   article h1,
   article p {
-    margin: 0 50px;
-    margin-bottom: 20px; }
+    margin: 20px 50px; }
   article p {
     font-size: 2em; }
   article figure {
     margin: 0; }
     article figure img {
       width: 100%;
-      margin: 0; }
+      margin: 20px 0; }
