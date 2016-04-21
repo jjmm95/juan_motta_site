@@ -787,6 +787,9 @@ body {
       width: 800px;
       padding-left: 0px; } }
 
+.post-alt {
+  margin: 50px auto; }
+
 article {
   margin: 0 auto;
   background: white;
@@ -805,3 +808,8 @@ article {
     article figure img {
       width: 100%;
       margin: 20px 0; }
+  article .post-button {
+    text-align: center;
+    margin-bottom: 50px; }
+    article .post-button .button {
+      font-size: 2rem; }
