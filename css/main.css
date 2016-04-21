@@ -402,6 +402,9 @@ a {
   color: #99694C; }
 
 /*--- ELEMENTS --- */
+section {
+  padding: 50px; }
+
 .button {
   text-transform: uppercase;
   font-size: 1.35rem;
@@ -510,7 +513,6 @@ nav {
   text-align: center;
   height: 250px;
   width: 100%;
-  padding: 20px;
   box-sizing: border-box; }
   .hero h1 {
     line-height: 1em;
@@ -518,10 +520,9 @@ nav {
   .hero h2 {
     font-size: 1.5em;
     line-height: 1em;
-    margin: 65px 0 0 0; }
+    margin: 35px 0 0 0; }
 
 .work {
-  padding: 10px;
   box-sizing: border-box;
   text-align: center;
   background: whitesmoke; }
@@ -615,7 +616,6 @@ nav {
       font-size: 2rem; }
 
 .contact {
-  padding: 10px;
   background: white; }
   .contact h2 {
     text-align: center;
