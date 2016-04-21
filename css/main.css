@@ -795,12 +795,10 @@ article {
   background: white;
   padding: 20px 0 20px 0;
   border-radius: 10px; }
-  @media screen and (min-width: 800px) {
-    article {
-      width: 800px; } }
   article h1,
   article p {
-    margin: 20px 50px; }
+    margin: 10px 30px;
+    line-height: 1.5em; }
   article p {
     font-size: 2em; }
   article figure {
@@ -813,3 +811,9 @@ article {
     margin-bottom: 50px; }
     article .post-button .button {
       font-size: 2rem; }
+  @media screen and (min-width: 800px) {
+    article {
+      width: 800px; }
+      article h1,
+      article p {
+        margin: 20px 50px; } }
