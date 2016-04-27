@@ -403,7 +403,10 @@ a {
 
 /*--- ELEMENTS --- */
 section {
-  padding: 50px 0 50px 0; }
+  padding: 10px 0 10px 0; }
+  @media screen and (min-width: 800px) {
+    section {
+      padding: 50px 0 50px 0; } }
 
 .button {
   text-transform: uppercase;
@@ -417,6 +420,10 @@ section {
   .button:hover {
     background: #99694C;
     color: white; }
+
+.button-black {
+  color: black;
+  border-color: black; }
 
 .cf {
   *zoom: 1; }
@@ -434,6 +441,9 @@ hr {
   border-radius: 3px;
   margin: 10px auto;
   margin-bottom: 15px; }
+
+.white {
+  color: white; }
 
 nav {
   height: 75px;
@@ -508,12 +518,23 @@ nav {
         top: 3px; } }
 
 .hero {
-  background: white;
+  background-color: white;
+  background-image: url("/assets/images/home-hero.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
   margin: 0 auto;
   text-align: center;
   height: 250px;
   width: 100%;
   box-sizing: border-box; }
+  @media screen and (min-width: 800px) {
+    .hero {
+      background-size: cover;
+      background-image: url("/assets/images/home-hero-large.svg"); } }
+  @media screen and (max-width: 800px) {
+    .hero {
+      height: 175px; } }
   .hero h1 {
     line-height: 1em;
     margin: 0 0 30px 0; }
@@ -524,8 +545,7 @@ nav {
 
 .work {
   box-sizing: border-box;
-  text-align: center;
-  background: whitesmoke; }
+  text-align: center; }
   .work h2 {
     text-transform: uppercase; }
   .work hr {
@@ -675,11 +695,11 @@ body {
 #p-hero {
   height: auto; }
   #p-hero h1 {
-    margin: 0 auto;
-    line-height: 5em; }
+    margin: auto;
+    line-height: 1em;
+    text-transform: uppercase; }
 
 .posts-work {
-  padding: 10px;
   box-sizing: border-box;
   text-align: center;
   background: #f0f0f0; }
@@ -691,8 +711,7 @@ body {
     background: #99694C;
     border: none;
     border-radius: 3px;
-    margin: 10px auto;
-    margin-bottom: 15px; }
+    margin: 10px auto; }
   .posts-work .wrapper {
     display: inline-block;
     max-width: 780px; }
