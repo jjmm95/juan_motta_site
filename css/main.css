@@ -595,7 +595,7 @@ nav {
         background-size: cover; }
       .work .wrapper .project .info {
         padding: 10px;
-        background: white;
+        background: #f0f0f0;
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
         -webkit-transition: all 0.1s ease-in-out;

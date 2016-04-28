@@ -33,7 +33,7 @@
 <!-- SIX POSTS !-->
 
   <div class="wrapper cf six-posts">
-    {% for post in site.posts limit:6 %}
+    {% for post in site.posts limit:3 %}
       <a href="{{ post.url }}" class="project hvr-grow">
         <div class="thumb" style="background-image: url({{post.thumbnail}})"></div>
         <div class="info">
@@ -47,7 +47,7 @@
 <!-- EIGHT POSTS !-->
 
   <div class="wrapper cf eight-posts">
-    {% for post in site.posts limit:8 %}
+    {% for post in site.posts limit:4 %}
       <a href="{{ post.url }}" class="project hvr-grow">
         <div class="thumb" style="background-image: url({{post.thumbnail}})"></div>
         <div class="info">
