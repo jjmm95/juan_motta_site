@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "0-tools/normalize";
+
+@import "1-base/vars";
+@import "1-base/base";
+
+@import "2-includes/header";
+
+@import "3-home/hero";
+@import "3-home/work";
+@import "3-home/contact";
+
+@import "4-posts/main";
+@import "4-posts/post";
