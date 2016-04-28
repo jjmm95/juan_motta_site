@@ -528,7 +528,7 @@ nav {
   background-size: cover;
   margin: 0 auto;
   text-align: center;
-  height: 250px;
+  height: 260px;
   width: 100%;
   box-sizing: border-box; }
   @media screen and (min-width: 800px) {
@@ -548,7 +548,8 @@ nav {
 
 .work {
   box-sizing: border-box;
-  text-align: center; }
+  text-align: center;
+  padding-top: 10px; }
   .work h2 {
     text-transform: uppercase; }
   .work hr {
@@ -820,16 +821,22 @@ article {
   padding: 20px 0 20px 0;
   border-radius: 10px; }
   article h1,
+  article h2,
   article p {
     margin: 10px 30px;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    text-align: left; }
   article p {
     font-size: 2em; }
+  article img {
+    width: 100%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 50, 0.15); }
   article figure {
     margin: 0; }
     article figure img {
       width: 100%;
-      margin: 20px 0; }
+      margin: 20px 0;
+      box-shadow: none; }
   article .post-button {
     text-align: center;
     margin-bottom: 50px; }
@@ -839,5 +846,6 @@ article {
     article {
       width: 800px; }
       article h1,
+      article h2,
       article p {
         margin: 20px 50px; } }
