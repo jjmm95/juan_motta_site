@@ -5,7 +5,7 @@ thumbnail: assets/images/Matt_thumb.jpg
 ---
 # Matt Hunter Artwork
 
-## Mas Que Tu Amigo Single Artwork
+Mas Que Tu Amigo Single Artwork
 
 ![EP Team Page](/assets/images/Matt_MasQueTuAmigo-Cover.jpg)
 
@@ -15,7 +15,7 @@ thumbnail: assets/images/Matt_thumb.jpg
 
 <hr noshade>
 
-## Fiesta Single Artwork
+Fiesta Single Artwork
 
 ![EP Team Page](/assets/images/Matt_Fiesta-Cover.jpg)
 
@@ -25,7 +25,7 @@ thumbnail: assets/images/Matt_thumb.jpg
 
 <hr noshade>
 
-## Amor Real Single Artwork
+Amor Real Single Artwork
 
 ![EP Team Page](/assets/images/Matt_AmorReal-Cover.jpg)
 
@@ -35,7 +35,7 @@ thumbnail: assets/images/Matt_thumb.jpg
 
 <hr noshade>
 
-## Banners & Flyers
+Banners & Flyers
 
 <figure>
 <img src="/assets/images/Matt_contest-flyer.jpg"/>
