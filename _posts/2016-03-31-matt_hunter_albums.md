@@ -20,7 +20,7 @@ thumbnail: assets/images/Matt_thumb.jpg
 ![EP Team Page](/assets/images/Matt_Fiesta-Cover.jpg)
 
 <figure>
-<img src="/assets/images/Matt_Fiesta-banner.jpg"/>
+<img src="/assets/images/Matt_FIesta-banner-copy.jpg"/>
 </figure>
 
 <hr noshade>
