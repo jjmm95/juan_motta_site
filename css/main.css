@@ -546,10 +546,22 @@ nav {
     line-height: 1em;
     margin: 35px 0 0 0; }
 
-.work {
-  box-sizing: border-box;
+.about {
   text-align: center;
   padding-top: 10px; }
+  .about h2 {
+    text-transform: uppercase; }
+  .about p {
+    width: 75%;
+    margin: auto;
+    font-size: 1.75rem; }
+    @media screen and (min-width: 800px) {
+      .about p {
+        width: 650px; } }
+
+.work {
+  box-sizing: border-box;
+  text-align: center; }
   .work h2 {
     text-transform: uppercase; }
   .work hr {
