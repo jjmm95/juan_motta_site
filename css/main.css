@@ -561,7 +561,9 @@ nav {
 
 .work {
   box-sizing: border-box;
-  text-align: center; }
+  text-align: center;
+  padding-top: 10px;
+  background: white; }
   .work h2 {
     text-transform: uppercase; }
   .work hr {
@@ -652,7 +654,7 @@ nav {
       font-size: 2rem; }
 
 .contact {
-  background: white; }
+  background: #f0f0f0; }
   .contact h2 {
     text-align: center;
     text-transform: uppercase; }
@@ -681,7 +683,7 @@ form {
   form .submit-wrap {
     text-align: right; }
   form [type="submit"] {
-    background: white;
+    background: #f0f0f0;
     color: #99694C;
     font-size: 18px;
     text-transform: uppercase;
