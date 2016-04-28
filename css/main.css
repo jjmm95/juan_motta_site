@@ -548,7 +548,8 @@ nav {
 
 .about {
   text-align: center;
-  padding-top: 0px; }
+  padding-top: 0px;
+  padding-bottom: 70px; }
   .about h2 {
     text-transform: uppercase; }
   .about p {
