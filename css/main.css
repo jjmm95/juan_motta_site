@@ -825,14 +825,15 @@ article {
   article p {
     margin: 10px 30px;
     text-align: left; }
-  article h1, article h2 {
-    line-height: 1rem;
+  article h1,
+  article h2 {
+    line-height: 3rem;
     margin-bottom: 15px; }
   article h2 {
     margin-top: 30px; }
   article p {
     font-size: 2em;
-    line-height: 1.5em; }
+    line-height: 1.4em; }
   article img {
     width: 100%;
     box-shadow: 0px 0px 50px rgba(0, 0, 50, 0.15); }
