@@ -5,7 +5,12 @@ layout: default
   <a href="/posts-index.html"> &#x3c; back to posts</a>
 </div>
 
+
+
 <article>
+<h1> {{ post.title }} </h1>
+<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+<div class="divider"></div>
 {{ content }}
 </article>
 
