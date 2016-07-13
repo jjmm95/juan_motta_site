@@ -1,6 +1,7 @@
 ---
-layout: post
 title: EP Rec'ing Crew
+date: 2016-03-31 00:00:00 Z
+layout: post
 thumbnail: assets/images/ep_thumb.png
 ---
 
