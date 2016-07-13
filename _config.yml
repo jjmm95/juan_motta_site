@@ -1,6 +1,18 @@
----
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
 title: Juan Motta Site
 timezone: UTC
+email: info@juanmotta.me
+description: > # this means to ignore newlines until "baseurl:"
+  Online portfolio and information about deesigner/developer Juan Motta
+baseurl:  # the subpath of your site, e.g. /blog
+url: "http://juanmotta.me" # the base hostname & protocol for your site
 collections:
   posts:
     title: Posts
@@ -8,3 +20,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+twitter_username: xjuantonx
+github_username:  jjmm95
+exclude: ['gems', ]
+gems:
+  - octopress-autoprefixer
+# Build settings
+markdown: kramdown
