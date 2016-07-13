@@ -1,7 +1,7 @@
 ---
-title: Resume
-permalink: "/resume"
 layout: post-alt
+title: Resume
+permalink: /resume
 ---
 
 <figure>

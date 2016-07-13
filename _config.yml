@@ -1,22 +1,21 @@
----
-title: Juan Motta Site
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Juan Motta
 email: info@juanmotta.me
-description: |
+description: > # this means to ignore newlines until "baseurl:"
   Online portfolio and information about deesigner/developer Juan Motta
-baseurl: 
-url: http://juanmotta.me
+baseurl:  # the subpath of your site, e.g. /blog
+url: "http://juanmotta.me" # the base hostname & protocol for your site
 twitter_username: xjuantonx
-github_username: jjmm95
-exclude:
-- gems
+github_username:  jjmm95
+exclude: ['gems', ]
 gems:
-- octopress-autoprefixer
+  - octopress-autoprefixer
+# Build settings
 markdown: kramdown

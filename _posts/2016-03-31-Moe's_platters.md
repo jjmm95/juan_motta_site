@@ -1,10 +1,8 @@
 ---
-title: Moe's Platters
-date: 2016-03-31 00:00:00 Z
 layout: post
+title: Moe's Platters
 thumbnail: assets/images/moes_thumb.jpg
 ---
-
 # Moe's Platters Website
 
 <figure>

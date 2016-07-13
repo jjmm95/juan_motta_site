@@ -1,10 +1,8 @@
 ---
-title: Broadway Dental
-date: 2016-03-31 00:00:00 Z
 layout: post
+title: Broadway Dental
 thumbnail: assets/images/BroadwayDental_moodBoard.jpg
 ---
-
 # Broadway Dental
 
 Logo options
