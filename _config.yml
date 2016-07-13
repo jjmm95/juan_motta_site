@@ -8,3 +8,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+email: info@juanmotta.me
+description: |
+  Online portfolio and information about deesigner/developer Juan Motta
+baseurl: 
+url: http://juanmotta.me
+twitter_username: xjuantonx
+github_username: jjmm95
+exclude:
+- gems
+gems:
+- octopress-autoprefixer
+markdown: kramdown
