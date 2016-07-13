@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  work:
+    title: Work
+    output: true
 email: info@juanmotta.me
 description: |
   Online portfolio and information about deesigner/developer Juan Motta
