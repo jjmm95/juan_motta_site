@@ -12,8 +12,9 @@ collections:
     title: Work
     output: true
 email: info@juanmotta.me
-description: |
-  Online portfolio and information about deesigner/developer Juan Motta
+description: 'Online portfolio and information about deesigner/developer Juan Motta
+
+'
 baseurl: 
 url: http://juanmotta.me
 twitter_username: xjuantonx
