@@ -1,7 +1,7 @@
 ---
 title: Test Post
 date: 2017-08-08 15:24:00 -04:00
-Thumbnail: assets/images/BroadwayDental_moodBoard.jpg
+thumbnail: assets/images/BroadwayDental_moodBoard.jpg
 ---
 
 Hello world!
